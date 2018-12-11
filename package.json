@@ -1,0 +1,19 @@
+{
+  "name": "help-fitness-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js",
+    "debbuger": "nodemon --inspect ./bin/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.0",
+    "fs": "0.0.1-security"
+  }
+}
